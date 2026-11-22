@@ -4,7 +4,9 @@ Short (15–25 min) backend design mocks, sized for an early-career engineer. Th
 
 ## Files
 - **`PROMPTS.md`**: the only thing you see before a mock. One short prompt per mock.
-- **`solutions/`**: the interviewer's notes for each mock: answers to clarifying questions, a reference design, APIs/data, failure modes, follow-ups, and a rubric. **Open it only after you've tried the mock.**
+- **One folder per case** (e.g. `01-efax-referral-intake/`), containing:
+  - `solution.md`: the interviewer's notes: answers to clarifying questions, a reference design, APIs/data, failure modes, follow-ups, and a rubric. **Open it only after you've tried the mock.**
+  - `my-answers.md` (once attempted): what I said during the mock, with a summary at the top of what went well, what I missed, and what to focus on.
 - **`CONCEPTS.md`**: a cheat sheet of the core ideas (queues, idempotency, transactions, and so on), with *why* you'd use each one. Fine to read anytime.
 
 ## Mock bank
